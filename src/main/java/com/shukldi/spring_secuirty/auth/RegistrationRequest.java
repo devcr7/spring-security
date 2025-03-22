@@ -1,5 +1,6 @@
 package com.shukldi.spring_secuirty.auth;
 
+import com.shukldi.spring_secuirty.user.Role;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -15,4 +16,5 @@ public class RegistrationRequest {
     private String lastName;
     private String email;
     private String password;
+    private Role role;
 }
