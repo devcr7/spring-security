@@ -16,3 +16,10 @@ spring:
         dialect: org.hibernate.dialect.PostgreSQLDialect
       database: postgresql
       database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+security:
+  jwt:
+    secret-key: EG+qHVHu5HKj9ajdWbQiwP/8+OiO/BVjcoQf+SXTeS9FjLS0qiyghRHkKZoTo5z2
+    expiration-time: 86400000
+    token-prefix: Bearer
+    header-string: Authorization
